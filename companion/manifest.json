@@ -1,0 +1,26 @@
+{
+	"id": "microsoft-powerpointosc",
+	"name": "powerpoint-osc",
+	"shortname": "ppt-osc",
+	"description": "Companion module to control Powerpoint with OSC protocol",
+	"manufacturer": "Microsoft",
+	"products": ["powerpoint"],
+	"keywords": ["powerpoint", "microsoft", "control", "osc"],
+	"version": "1.0.1",
+	"license": "AGPL-3.0",
+	"repository": "git+https://github.com/a2mSystemes/companion-microsoft-powerpointOSC.git",
+	"bugs": "https://github.com/a2mSystemes/companion-microsoft-powerpointOSC/issues",
+	"maintainers": [
+		{
+			"name": "Ange-Marie MAURIN",
+			"email": "a-m.maurin@a2msystemes.fr"
+		}
+	],
+	"legacyIds": [],
+	"runtime": {
+		"type": "node18",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../main.js"
+	}
+}

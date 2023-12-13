@@ -1,0 +1,33 @@
+{
+  "name": "companion-microsoft-powerpointosc",
+  "version": "1.0.0",
+  "description": "Companion module to control Powerpoint with OSC protocol",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a2mSystemes/companion-microsoft-powerpointOSC.git"
+  },
+  "keywords": [
+    "companion",
+    "streamdeck",
+    "powerpoint",
+    "microsoft",
+    "control"
+  ],
+  "author": "Ange-Marie MAURIN",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/a2mSystemes/companion-microsoft-powerpointOSC/issues"
+  },
+  "homepage": "https://github.com/a2mSystemes/companion-microsoft-powerpointOSC#readme",
+  "dependencies": {
+		"@companion-module/base": "~1.5.1"
+	},
+	"devDependencies": {
+		"@companion-module/tools": "^1.4.1"
+	},
+	"prettier": "@companion-module/tools/.prettierrc.json" 
+}
